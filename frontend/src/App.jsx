@@ -24,6 +24,7 @@ function App() {
         data.map((data) => (
           <div key={data.id}>
             <h2>content is {data.content}</h2>
+            <p>this is unique id of joke {data.id}</p>
           </div>
         ))
       }
