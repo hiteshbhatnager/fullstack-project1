@@ -31,10 +31,6 @@ const data = [
     }
 ]
 
-app.get("/", (req, res) => {
-    res.send("server is start")
-})
-
 app.get("/api/data", (req, res) => {
     res.send(data)
 })
